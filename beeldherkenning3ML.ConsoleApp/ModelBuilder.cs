@@ -158,4 +158,8 @@ namespace Beeldherkenning3ML.ConsoleApp
             return confidenceInterval95;
         }
     }
+
+    internal class Program
+    {
+    }
 }

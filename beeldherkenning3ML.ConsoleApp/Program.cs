@@ -12,7 +12,7 @@ namespace beeldherkenning3
             Debug.WriteLine(" Object is not valid for this category.");
             // Add input data
             var input = new ModelInput();
-            input.ImageSource = @"C:\Users\bregj\OneDrive\Bureaublad\5VWO\Informatica\beeldherkenning\auto's\auto.jpg";
+            input.ImageSource = @"C:\Users\bregj\OneDrive\Bureaublad\5VWO\Informatica\beeldherkenning\auto.jpg";
 
             // Load model and predict output of sample data
             ModelOutput result = ConsumeModel.Predict(input);
